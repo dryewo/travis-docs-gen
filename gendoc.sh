@@ -2,5 +2,5 @@
 set -euo pipefail
 IFS=$'\t\n'
 
-# Try a PR
+ls -la
 env
