@@ -1,1 +1,1 @@
-script: echo "Very OK"
+script: ./gendoc.sh
