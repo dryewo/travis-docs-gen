@@ -23,6 +23,8 @@ We want our generated docs to be accessible under:
 It should be automatically generated and re-generated every time when the code is pushed to any branch.
 GitHub feature to make this publishing possible is called [GitHub Pages](https://pages.github.com/), and the automation tool that we will use is [Travis CI](https://travis-ci.org).
 
+Example: https://dryewo.github.io/travis-docs-gen/master/
+
 ## Steps
 
 This example project does not really have real documentation generation, instead we just copy and rename `index.tmpl` file.
