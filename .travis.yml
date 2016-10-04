@@ -1,1 +1,13 @@
-script: ./gendoc.sh
+branches:
+  except:
+  - gh-pages
+
+script:
+  - echo "OK"
+
+after_success:
+  - ./gendoc.sh
+
+env:
+  global:
+    secure: lvxBeQzKLhGlLrazdy8lRjSyNZDold14ZN6ro+o9mogXpkOGXQa3lD+QYPAIqO2DfkPErl6lr0t/J+y+FDZH2pVraohK5iU5x3yyOgUY5racVVmyQDJ9ejY84nt0ss0RQeIhZAxuAkIfgT6JDgSyL05hIoRy/voDoj5VFcVoW1Ioy/xuBqPPkyMLUjIVjyyaLNvJlW0ZBm6+GVSO1KSDjfVzZpkmvNwnJqf3+Mrf1XBwTy9VB2UkaKGBW6+npPTYLXrUtKypToZLXq2uxQTiYpgEBlP2Ix/TYHxP/oekGUxv+OUSnjIrg+dmZE5y+8v7r/vXaPNXATSI5mZGDdBTHk807zoJOfOfxxYeC1bW7YTp0Az1wZHi6sWwWwbtgJpt59fPUUueuOlQ7UrNxWPqDF+L2DAPW1xaZ9j9yWvnE9IgMv1VA4px7rS44awYnU9D4aNzH7oi/0F58QMypmEmeXd/lO3J5WxGAxafYJ9lcRC4Cf13QGajqcjLf8nbWJgMR6hD3JS5/LuD2FvgZMClwc5sqR+cmTe76hnKevMvo3sE8XOrB72EEVYSJnLMMrsWjlNhFTTd3JAMCyaPTLLtoFYRALiQOwcV1u59z8c09ewG3sUkNx+DIOdYHcSq0ljnZL/AQRf2S8pBj0iHoOoYBvvwKYZOzL9Swx7v41/rcl0=
